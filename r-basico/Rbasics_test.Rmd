@@ -1,0 +1,61 @@
+1.  **Create two variables, Ana and Paulo, and assign them their ages (8 and 12 years old, respectively). The variables must be integers. Print to the console "The girl is older" or "The boy is older" based on a logical test.**
+
+```{r}
+ana = 8
+paulo <- 12
+
+if (ana > paulo)
+  print("Ana is older than Paulo")else
+  print("Paulo is older than Ana")
+```
+
+2.  **BOD is an existing object in R. Check the class of this object.**
+
+```{r}
+class(BOD)
+```
+
+3.  **Create a vector that stores numbers from 1 to 10 and then print only the even values.**
+
+```{r}
+numeros = c(1,2,3,4,5,6,7,8,9,10)
+
+for (i in numeros) {
+  if (numeros[i]%%2==0)
+      print(numeros[i])
+}
+
+
+```
+
+4.  **women is an existing dataframe in R. Print the last 10 rows.**
+
+```{r}
+tail(women,10)
+```
+
+5.  **Use R's plot function to create a graph of the Sepal.Width and Petal.Length attributes from the iris dataset. The plot should only include rows 50 through 100.**
+
+```{r}
+newiris = iris[50:100,c(2:3)]
+
+plot(newiris)
+head(newiris)
+```
+
+6.  **Create two vectors of equal size, sum their equivalent positions, and print the result.**
+
+```{r}
+vet1 = c(1,2,3,4)
+vet2 = c(4,3,2,1)
+print(vet1 + vet2)
+```
+
+7.  **Print the number of rows, number of columns, row names, and column names of the CO2 dataset.**
+
+```{r}
+dim(CO2)[1]
+dim(CO2)[2]
+colnames(CO2)
+rownames(CO2)
+```
