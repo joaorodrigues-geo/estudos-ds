@@ -37,13 +37,9 @@ Notebook [`01-jr-eda-diabetes`](notebooks/01-jr-eda-diabetes.ipynb): renomear co
 
 ```bash
 conda env create -f ambiente.yml
-conda activate hashtag-ml
+conda activate estudos-ds
 cd notebooks
 jupyter lab
 ```
 
 O notebook descarrega os dados para `dados/brutos/` (fora do Git).
-
----
-
-<sub>Módulo 14 do curso Ciência de Dados Impressionador (Hashtag Treinamentos).</sub>

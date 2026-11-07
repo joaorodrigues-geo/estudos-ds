@@ -1,10 +1,25 @@
 # Estudos de ciência de dados
 
-Projetos de estudo em ciência de dados. Os projetos próprios estão em repositórios separados, ligados a partir do [perfil](https://github.com/joaorodrigues-geo).
+Projetos de estudo em ciência de dados, organizados por área. Os projetos de SIG e deteção remota estão em repositórios próprios, ligados a partir do [perfil](https://github.com/joaorodrigues-geo).
 
-*Data science study projects.*
+*Data science study projects, organised by topic.*
 
-| Pasta | O que é |
+## Machine learning
+
+| Projeto | O que é |
 |---|---|
-| [`hashtag/`](hashtag) | Módulos práticos de Machine Learning do curso Ciência de Dados Impressionador (Hashtag Treinamentos), um por pasta. |
-| [`ibm-tesla-gamestop/`](ibm-tesla-gamestop) | Análise do preço das ações e das receitas da Tesla e da GameStop (yfinance, web scraping, Plotly). Projeto final do curso de Python da IBM. |
+| [Regressão — diabetes](machine-learning/regressao-diabetes) | Análise exploratória de 442 doentes para prever a progressão da diabetes |
+
+## Análise de dados
+
+| Projeto | O que é |
+|---|---|
+| [Ações Tesla e GameStop](analise-de-dados/acoes-tesla-gamestop) | Preço das ações e receitas da Tesla e da GameStop (yfinance, web scraping, Plotly) |
+
+## Estrutura de cada projeto
+
+Todos seguem o [`_modelo/`](_modelo): dados por fases (brutos fora do Git), notebooks numerados, referências e relatórios. Projeto novo:
+
+```bash
+./novo_projeto.sh machine-learning/nome-do-projeto
+```

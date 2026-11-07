@@ -1,4 +1,4 @@
-name: hashtag-ml
+name: estudos-ds
 channels:
   - conda-forge
 dependencies:
