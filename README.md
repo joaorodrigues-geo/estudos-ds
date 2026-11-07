@@ -1,6 +1,6 @@
 # Estudos de ciência de dados
 
-Exercícios e pequenos projetos feitos durante a aprendizagem de Python, R e ciência de dados. Os projetos completos estão em repositórios próprios, ligados a partir do [perfil](https://github.com/joaobrodrigues).
+Exercícios e pequenos projetos feitos durante a aprendizagem de Python, R e ciência de dados. Os projetos completos estão em repositórios próprios, ligados a partir do [perfil](https://github.com/joaorodrigues-geo).
 
 *Study exercises in Python, R and data science. Full projects live in their own repositories.*
 
