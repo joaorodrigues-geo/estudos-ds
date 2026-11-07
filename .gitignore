@@ -1,0 +1,45 @@
+# Dados: os brutos e os intermédios não vão para o Git (são pesados e descarregam-se com scripts).
+# Os processados (tabelas finais pequenas) ficam versionados.
+**/dados/brutos/*
+**/dados/intermedios/*
+!**/.gitkeep
+
+# Rasters, imagens de satélite e ficheiros pesados fora de dados/
+*.tif
+*.tiff
+*.SAFE/
+*.nc
+*.zip
+*.parquet
+
+# Segredos
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# QGIS (cópias de segurança e temporários)
+*.qgs~
+*.qgz~
+*.qgs.bak
+*.qgz.bak
+*.aux.xml
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Sistema
+.DS_Store
+*.swp

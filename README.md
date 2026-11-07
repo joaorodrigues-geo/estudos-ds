@@ -6,6 +6,7 @@ Projetos de estudo em ciência de dados. Os projetos completos estão em reposit
 
 | Pasta | O que é | Linguagem |
 |---|---|---|
+| `hashtag/` | Projetos dos módulos de Machine Learning do curso de Ciência de Dados da Hashtag Treinamentos, um por módulo. | Python |
 | `ibm-tesla-gamestop/` | Análise do preço das ações e das receitas da Tesla e da GameStop (yfinance, web scraping, Plotly). Projeto final do curso de Python da IBM. | Python |
 | `ibm-ferramentas-ds/` | Projeto final do curso *Tools for Data Science* (IBM): ecossistema de ferramentas de ciência de dados. | Python, Jupyter |
 

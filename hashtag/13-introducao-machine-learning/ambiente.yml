@@ -1,0 +1,16 @@
+name: nome-do-projeto
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyterlab
+  - ipykernel
+  - python-dotenv
+  # descomentar em projetos com dados geográficos
+  # - geopandas
+  # - rasterio
